@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-image: url(esgul.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+h1 {
+    margin-top: 75px;
+    margin-left: 70px;
+    color: #fbfbfb;
+    text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+}
+
+h2 {
+    margin-left: 70px;
+    color: #fbfbfb;
+    text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+}
+
+.container {
+    display: flex;
+}
+
+#card {
+    background-color: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 400px;
+    width: 320px;
+    float: right;
+    margin-right: 200px;
+}
+
+.logo {
+    height: 120px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    font-family: "Raleway", sans-serif;
+    font-size: 9pt;
+    margin-left: 60px;
+}
+
+#login-dosen {
+    color: #bd2d2d;
+    font-family: "Raleway", sans-serif;
+    font-size: 9pt;
+    margin-top: 10px;
+    margin-left: 60px;
+    text-align: left;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-border {
+    background: -webkit-linear-gradient(right, #ff9d34, #1f4bff);
+    height: 1px;
+    width: 200px;
+    margin-left: 60px;
+}
+
+.form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+
+#user-nim {
+    margin-left: 60px;
+}
+
+#user-password {
+    margin-left: 60px;
+}
+
+#submit-btn {
+    background: -webkit-linear-gradient(right, #ff9d34, #1f4bff);
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 40px;
+    transition: 0.25s;
+    width: 153px;
+}
